@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D5A77DB1B9FC7A40048E60C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A77DA1B9FC7A40048E60C /* AppDelegate.swift */; };
-		5D5A77DD1B9FC7A40048E60C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A77DC1B9FC7A40048E60C /* FirstViewController.swift */; };
+		5D5A77DD1B9FC7A40048E60C /* SecretNumberGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A77DC1B9FC7A40048E60C /* SecretNumberGameViewController.swift */; };
 		5D5A77DF1B9FC7A40048E60C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A77DE1B9FC7A40048E60C /* SecondViewController.swift */; };
 		5D5A77E21B9FC7A40048E60C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A77E01B9FC7A40048E60C /* Main.storyboard */; };
 		5D5A77E41B9FC7A40048E60C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A77E31B9FC7A40048E60C /* Images.xcassets */; };
@@ -30,7 +30,7 @@
 		5D5A77D51B9FC7A40048E60C /* #Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5A77D91B9FC7A40048E60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D5A77DA1B9FC7A40048E60C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D5A77DC1B9FC7A40048E60C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5D5A77DC1B9FC7A40048E60C /* SecretNumberGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretNumberGameViewController.swift; sourceTree = "<group>"; };
 		5D5A77DE1B9FC7A40048E60C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5D5A77E11B9FC7A40048E60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D5A77E31B9FC7A40048E60C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5D5A77DA1B9FC7A40048E60C /* AppDelegate.swift */,
-				5D5A77DC1B9FC7A40048E60C /* FirstViewController.swift */,
+				5D5A77DC1B9FC7A40048E60C /* SecretNumberGameViewController.swift */,
 				5D5A77DE1B9FC7A40048E60C /* SecondViewController.swift */,
 				5D5A77E01B9FC7A40048E60C /* Main.storyboard */,
 				5D5A77E31B9FC7A40048E60C /* Images.xcassets */,
@@ -217,7 +217,7 @@
 			files = (
 				5D5A77DF1B9FC7A40048E60C /* SecondViewController.swift in Sources */,
 				5D5A77DB1B9FC7A40048E60C /* AppDelegate.swift in Sources */,
-				5D5A77DD1B9FC7A40048E60C /* FirstViewController.swift in Sources */,
+				5D5A77DD1B9FC7A40048E60C /* SecretNumberGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 				5D5A77F81B9FC7A40048E60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D5A77F91B9FC7A40048E60C /* Build configuration list for PBXNativeTarget "#GuessTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				5D5A77FB1B9FC7A40048E60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
