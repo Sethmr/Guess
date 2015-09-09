@@ -90,15 +90,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="What number am I thinking of?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="137" y="89" width="327" height="28"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="What number (1-100) am I?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="153" y="89" width="295" height="28"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="#Guess..." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LgB-mO-qnL">
-                                <rect key="frame" x="206" y="133" width="200" height="30"/>
+                                <rect key="frame" x="200" y="133" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="OFu-Vf-CzV"/>
                                 </constraints>
@@ -125,13 +125,13 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down" translatesAutoresizingMaskIntoConstraints="NO" id="9BP-Vg-boU">
-                                <rect key="frame" x="113" y="106" width="85" height="85"/>
+                                <rect key="frame" x="107" y="106" width="85" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9BP-Vg-boU" secondAttribute="height" multiplier="1:1" id="2fB-h6-az6"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="shZ-bC-lez">
-                                <rect key="frame" x="414" y="106" width="85" height="85"/>
+                                <rect key="frame" x="408" y="106" width="85" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="shZ-bC-lez" secondAttribute="height" multiplier="1:1" id="E1d-dD-VeD"/>
                                 </constraints>
@@ -191,7 +191,7 @@
                             <constraint firstItem="enU-9J-kwf" firstAttribute="top" secondItem="nm2-Gx-zx4" secondAttribute="bottom" constant="8" id="g6M-JK-F2C"/>
                             <constraint firstAttribute="centerX" secondItem="nm2-Gx-zx4" secondAttribute="centerX" id="gy0-e4-ayv"/>
                             <constraint firstAttribute="centerX" secondItem="vAR-pf-VY3" secondAttribute="centerX" id="sc6-fQ-pDc"/>
-                            <constraint firstAttribute="centerX" secondItem="LgB-mO-qnL" secondAttribute="centerX" constant="-5.5" id="vha-pH-BRf"/>
+                            <constraint firstAttribute="centerX" secondItem="LgB-mO-qnL" secondAttribute="centerX" id="vha-pH-BRf"/>
                             <constraint firstItem="shZ-bC-lez" firstAttribute="centerY" secondItem="LgB-mO-qnL" secondAttribute="centerY" id="vqi-Ih-8xw"/>
                             <constraint firstAttribute="centerX" secondItem="ZTz-cg-L9e" secondAttribute="centerX" id="x8J-jB-rbU"/>
                         </constraints>

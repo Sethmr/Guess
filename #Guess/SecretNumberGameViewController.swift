@@ -60,6 +60,7 @@ class SecretNumberGameViewController: UIViewController, UITabBarControllerDelega
                     HigherImage.hidden = true
                     JustRightImage.hidden = false
                     victories.append(numberOfTries)
+                    okButton.enabled = false
                 }
             } else {
                 GuessLabel.text = "Outside Boundaries"
@@ -79,6 +80,7 @@ class SecretNumberGameViewController: UIViewController, UITabBarControllerDelega
         GuessBox.endEditing(true)
         numberOfTries = 0
         triesLabel.text = "Tries: \(numberOfTries)"
+        okButton.enabled = true
     }
     
     @IBAction func guessBoxDidBeginEditing(sender: AnyObject) {
@@ -86,7 +88,6 @@ class SecretNumberGameViewController: UIViewController, UITabBarControllerDelega
     }
 
     func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
-
         victories.sort {
             return $0 < $1
         }
